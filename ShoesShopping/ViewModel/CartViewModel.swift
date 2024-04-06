@@ -27,6 +27,7 @@ class CartViewModel: ObservableObject {
     var maxLimit = 10
     var minLimit = 1
     
+    
     func isAlreadyOnCart(cartShoe: CartShoe, cartProducts: [CartShoe]) -> Bool {
         return cartProducts.contains(where: {$0.shoeId == cartShoe.shoeId && $0.size == cartShoe.size})
     }
