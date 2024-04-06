@@ -15,9 +15,6 @@
 * Cart View with SwiftData
 * Night Mode
 
-# Preview
-
-
 # Requirements
 [Setup Firebase](https://firebase.google.com/docs/ios/setup) to Xcode, Create Database and Storage (Images are uploaded manually)
 
